@@ -355,7 +355,7 @@ namespace MicroscopeAnalyzerLibrary
         **  @param userInput : the name that the file should be stored as
         **  */
         [ComVisible(true)]
-        public static Result LoadMicroscopeAnalyzerFrom(string fileDir, string userInput)
+        public static Result LoadResultsFrom(string fileDir, string userInput)
         {
             Console.WriteLine("Now loading myself to " + fileDir + userInput + ".xml");
 

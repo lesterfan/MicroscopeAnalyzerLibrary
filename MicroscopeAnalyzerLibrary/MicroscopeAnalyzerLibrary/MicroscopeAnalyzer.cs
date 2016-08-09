@@ -7,9 +7,11 @@ using System.Xml.Serialization;
 using System.IO;
 using Filmetrics;
 using System.Drawing;
+using System.Runtime.InteropServices;
 
 namespace MicroscopeAnalyzerLibrary
 {
+    [ComVisible(true)]
     public class MicroscopeAnalyzer
     {
         public FIRemote mFIRemote;

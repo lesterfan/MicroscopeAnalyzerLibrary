@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Filmetrics;
+using System.Runtime.InteropServices;
 
 namespace MicroscopeAnalyzerLibrary
 {
+    [ComVisible(true)]
     public class Result
     {
         public string ret = "";

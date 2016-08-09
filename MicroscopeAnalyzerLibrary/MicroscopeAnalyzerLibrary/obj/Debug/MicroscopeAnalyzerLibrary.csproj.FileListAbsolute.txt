@@ -1,0 +1,10 @@
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\MicroscopeAnalyzerLibrary.dll
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\MicroscopeAnalyzerLibrary.pdb
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\FILMeasure.exe
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\DirectShowLib-2005.dll
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\en\FILMeasure.resources.dll
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\ja\FILMeasure.resources.dll
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\zh-CHS\FILMeasure.resources.dll
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.csprojResolveAssemblyReference.cache
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.dll
+c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.pdb

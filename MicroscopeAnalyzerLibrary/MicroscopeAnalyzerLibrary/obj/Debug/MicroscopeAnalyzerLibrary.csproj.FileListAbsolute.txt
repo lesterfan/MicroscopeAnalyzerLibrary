@@ -8,3 +8,13 @@ c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary
 c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.csprojResolveAssemblyReference.cache
 c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.dll
 c:\users\huafeng\documents\visual studio 2015\Projects\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.pdb
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\MicroscopeAnalyzerLibrary.dll
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\MicroscopeAnalyzerLibrary.pdb
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\FILMeasure.exe
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\DirectShowLib-2005.dll
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\en\FILMeasure.resources.dll
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\ja\FILMeasure.resources.dll
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\bin\Debug\zh-CHS\FILMeasure.resources.dll
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.dll
+C:\Users\Huafeng\Desktop\VGitHub\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\MicroscopeAnalyzerLibrary\obj\Debug\MicroscopeAnalyzerLibrary.pdb

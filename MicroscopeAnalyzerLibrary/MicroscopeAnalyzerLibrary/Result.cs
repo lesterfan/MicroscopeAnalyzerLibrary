@@ -29,11 +29,11 @@ namespace MicroscopeAnalyzerLibrary
         public float[] SpectrumAnalysisExtremaValues;
         public float[] SpectrumAnalysisExtremaWavelengthes;
         public float[] SpectrumAnalysisMeanValues;
-
+        
         public Result()
         {
         }
-
+        
         public Result(Filmetrics.FIRemote.FIMeasResults e)
         {
             this.AlarmTriggered = e.AlarmTriggered;

@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Filmetrics;
+using System.Runtime.InteropServices;
 
 namespace MicroscopeAnalyzerLibrary
 {
+    [ComVisible(true)]
     public class Result
     {
         public string ret = "";
@@ -27,11 +29,11 @@ namespace MicroscopeAnalyzerLibrary
         public float[] SpectrumAnalysisExtremaValues;
         public float[] SpectrumAnalysisExtremaWavelengthes;
         public float[] SpectrumAnalysisMeanValues;
-
+        
         public Result()
         {
         }
-
+        
         public Result(Filmetrics.FIRemote.FIMeasResults e)
         {
             this.AlarmTriggered = e.AlarmTriggered;

@@ -7,9 +7,11 @@ using System.Xml.Serialization;
 using System.IO;
 using Filmetrics;
 using System.Drawing;
+using System.Runtime.InteropServices;
 
 namespace MicroscopeAnalyzerLibrary
 {
+    [ComVisible(true)]
     public class MicroscopeAnalyzer
     {
         public FIRemote mFIRemote;
@@ -49,6 +51,7 @@ namespace MicroscopeAnalyzerLibrary
         // ----------------------------------- Methods ---------------------------------------------
 
         /*  Baseline Step 0 : Obtains the reference material from the user    */
+        [ComVisible(true)]
         public void obtainRefMat()
         {
             Console.WriteLine("Please type in which material you are referencing.");
@@ -57,6 +60,7 @@ namespace MicroscopeAnalyzerLibrary
         }
 
         /*  Baseline Step 1 : Acquire sample reflectance     */
+        [ComVisible(true)]
         public void BaselineStep1()
         {
             try
@@ -79,6 +83,7 @@ namespace MicroscopeAnalyzerLibrary
         }
 
         /*  Baseline Step 2 : Acquire reference standard   */
+        [ComVisible(true)]
         public void BaselineStep2()
         {
             Console.WriteLine("I am now acquiring reference standard");
@@ -116,6 +121,7 @@ namespace MicroscopeAnalyzerLibrary
         //Lester.eatMunchkin()}
 
         /*  Baseline Step 3 : Take background   */
+        [ComVisible(true)]
         public void BaselineStep3()
         {
             Console.WriteLine("Now taking a background.");
@@ -153,6 +159,7 @@ namespace MicroscopeAnalyzerLibrary
         }
 
         /*  Baseline Step 4 : Commit the baseline   */
+        [ComVisible(true)]
         public void BaselineStep4()
         {
             try
@@ -177,6 +184,7 @@ namespace MicroscopeAnalyzerLibrary
         **  Acquires a baseline, does all 0-4 steps sequentially.
         **  Returns 1 if an error occured, 0 if baseline is successfully taken.
         **  */
+        [ComVisible(true)]
         public void AcquireBaseline()
         {
             Console.WriteLine("Enter in anything to begin the baseline procedure.");
@@ -230,6 +238,7 @@ namespace MicroscopeAnalyzerLibrary
         /* 
         **  Emulates the function of clicking the measure button
         **  */
+        [ComVisible(true)]
         public void Measure()
         {
             try
@@ -285,6 +294,7 @@ namespace MicroscopeAnalyzerLibrary
         **  @param fileDir : directory that it should be saved in
         **  @param userInput : the name that the file should be stored as.
         **  */
+        [ComVisible(true)]
         public void SaveSpectrum(string fileDir, string userInput)
         {
             try
@@ -309,6 +319,7 @@ namespace MicroscopeAnalyzerLibrary
         **  @param fileDir : directory that it should be saved in
         **  @param userInput : the name that the file should be stored as
         **  */
+        [ComVisible(true)]
         public void SaveResultsTo(string fileDir, string userInput)
         {
             Console.WriteLine("Now saving myself to " + fileDir + userInput + ".xml");
@@ -343,7 +354,8 @@ namespace MicroscopeAnalyzerLibrary
         **  @param fileDir : directory that it should be saved in
         **  @param userInput : the name that the file should be stored as
         **  */
-        public static Result LoadMicroscopeAnalyzerFrom(string fileDir, string userInput)
+        [ComVisible(true)]
+        public static Result LoadResultsFrom(string fileDir, string userInput)
         {
             Console.WriteLine("Now loading myself to " + fileDir + userInput + ".xml");
 

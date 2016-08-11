@@ -247,9 +247,9 @@ namespace MicroscopeAnalyzerLibrary
                 mFIRemoteResults = mFIRemote.Measure(true);
 
                 // Logging to check.
-                Console.WriteLine("The wavelengths are");
-                for (int i = 0; i < mFIRemoteResults.PrimaryWavelengths.Length; ++i) Console.WriteLine(mFIRemoteResults.PrimaryWavelengths[i]);
-                Console.WriteLine("The summary is " + mFIRemoteResults.ResultsSummary);
+                // Console.WriteLine("The wavelengths are");
+                // for (int i = 0; i < mFIRemoteResults.PrimaryWavelengths.Length; ++i) Console.WriteLine(mFIRemoteResults.PrimaryWavelengths[i]);
+                // Console.WriteLine("The summary is " + mFIRemoteResults.ResultsSummary);
 
                 mMeasuredResults = new Result(mFIRemoteResults);
                 mLastRet = 0;

@@ -334,10 +334,10 @@ namespace MicroscopeAnalyzerLibrary
                     ser.Serialize(stream, mMeasuredResults);
                 }
 
-                // Save the sample image to the directory as .bmp
-                // First make a new Bitmap around it, then save that
-                var temp_image = new Bitmap(mFIRemoteResults.SampleImage);
-                temp_image.Save(fileDir + userInput + ".bmp", System.Drawing.Imaging.ImageFormat.Bmp);
+                // // Save the sample image to the directory as .bmp
+                // // First make a new Bitmap around it, then save that
+                // var temp_image = new Bitmap(mFIRemoteResults.SampleImage);
+                // temp_image.Save(fileDir + userInput + ".bmp", System.Drawing.Imaging.ImageFormat.Bmp);
 
                 Console.WriteLine("I saved myself!");
                 mLastRet = 0;
@@ -348,6 +348,17 @@ namespace MicroscopeAnalyzerLibrary
                 mLastRet = 1;
             }
         }
+
+        [ComVisible(true)]
+        public void SaveImageTo(string fileDir, string userInput)
+        {
+            // Save the sample image to the directory as .bmp
+            // First make a new Bitmap around it, then save that
+            var temp_image = new Bitmap(mFIRemoteResults.SampleImage);
+            temp_image.Save(fileDir + userInput + ".bmp", System.Drawing.Imaging.ImageFormat.Bmp);
+            mLastRet = 0;
+        }
+
 
         /* 
         **  Reverts the state of the variable 'this' to the state of MicroscopeAnalyzer saved in the .xml file specified by the user

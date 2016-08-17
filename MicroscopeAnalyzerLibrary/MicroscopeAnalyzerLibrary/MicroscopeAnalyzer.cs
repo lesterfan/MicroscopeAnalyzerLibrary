@@ -366,9 +366,9 @@ namespace MicroscopeAnalyzerLibrary
         **  @param userInput : the name that the file should be stored as
         **  */
         [ComVisible(true)]
-        public static Result LoadResultsFrom(string fileDir, string userInput)
+        public static Result LoadResultsFrom(string fileDir)
         {
-            Console.WriteLine("Now loading myself to " + fileDir + userInput + ".xml");
+            Console.WriteLine("Now loading myself from " + fileDir);
 
             try
             {
@@ -376,7 +376,7 @@ namespace MicroscopeAnalyzerLibrary
 
                 Result result;
 
-                using (var stream = File.OpenRead(fileDir + userInput + ".xml"))
+                using (var stream = File.OpenRead(fileDir))
                 {
                     result = (Result)ser.Deserialize(stream);
                 }
